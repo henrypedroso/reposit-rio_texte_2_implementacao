@@ -4,6 +4,7 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".resultado-1");
 
 const textoResultado = document.querySelector(".textoResultado");
+const botao1 = document.querySelector(".caixa-alternativas .botao_1");
 
 
 
@@ -17,6 +18,7 @@ botao1.addEventListener("click", function(){
     caixaResultado.classList.add("mostrar-caixa-resultado");
     
 })
+
 
 
 
